@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // Conditional
+
+        // 1. if(Condition) : If will Only Gives Output When Condition is True
+
+        // let age=22
+
+        // if(age>18) {
+        //     // Body of If
+        //     console.log('Eligible')
+
+        //     alert('Eligible for Driving')  // Pop Up Msg
+        // }
+
+        // 2. If-else
+        // if - true and else - false
+
+        // let age = 11
+
+        // if (age>=18) {
+        //     // Body of If
+        //     console.log('Eligible')
+
+        //     alert('Eligible For Driving') // Pop Up Msg
+        // }
+        // else{
+        //     alert('Not Eligible - Age Should be above 18 or 18') 
+        // }
+
+        // else if - Multiple conditions
+        // Delivery Charges 
+        // amount is greater or equal to 500 - free
+        // Amount between 400-499 - 30 Rs Delivery Charge
+        // amount between 300 - 399 - 50 Rs Delivery Charge
+        // Cannot Place Minimum Cart Value is 300
+
+        let amount = 499.99
+
+        if (amount>=500) {
+            alert('FREE DELIVERY')
+        }
+        else if(amount>=400) {
+            alert('Rs 30 Delivery Charges')
+        }
+        else if(amount>=300) {
+            alert('Rs 50 Delivery Charges')
+        }
+        else{
+            alert('Cannot Place Order - Minimum Cart Value is 300')
+        }
+
+    </script>
+</body>
+</html>
